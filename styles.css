@@ -1,0 +1,136 @@
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+  color: seashell;
+
+  /*font-size: 62.5%;*/
+  background-color: black;
+  opacity: 0.9;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1px white;
+  position: sticky;
+}
+.header_title {
+  height: 30px;
+  width: 10%;
+}
+.header_title img {
+  padding-left: 10px;
+  height: 50px;
+  width: auto;
+}
+nav {
+  display: flex;
+  width: 90%;
+}
+
+nav a {
+  display: inline-block;
+  background-color: red;
+  color: seashell;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  text-decoration: underline;
+  width: 30%;
+}
+.main_container {
+  width: 1200px;
+  height: 700px;
+  margin: 0 auto;
+  position: relative;
+  top: 69px;
+  display: flex;
+  align-items: center;
+  background-image: url("./images/img-mission-background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main_container-text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.tea_month {
+  width: 1000px;
+  height: auto;
+
+  margin: 125px auto;
+}
+.tea_month-container {
+  text-align: center;
+}
+.images-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.images-container article {
+  margin: 10px 5px;
+}
+.images-container img {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+.images-container h3 {
+  text-align: center;
+  /*display: inline-block;*/
+}
+
+.image .Blitz {
+  background-image: url("./images/img-berryblitz.jpg");
+}
+.image .spiced {
+  background-image: url("./images/img-spiced-rum.jpg");
+}
+
+.location-container {
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+  background-image: url("./images/img-locations-background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.location-container_head {
+  width: 100%;
+  color: #000;
+  text-align: center;
+}
+.location-card_container {
+  height: auto;
+  margin-top: 15px;
+
+  display: flex;
+  justify-content: center;
+}
+.location-card {
+  background-color: black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  height: 250px;
+  margin: 20px;
+}
+footer .footer_main-data {
+  height: 200px;
+  text-align: center;
+}
+.copyright {
+  text-align: left;
+  margin: 20px 20px;
+}
